@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.example.android.testingandroidxpreferences.NumberPickerPreference
+        android:key="number_picker_preference"
+        android:summary="pick_a_number"
+        android:title="Pick a number" />
+
+
+    <!--<EditTextPreference
+        android:defaultValue="your name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        app:key="name"
+        app:title="put your name here" />-->
+
+    <com.example.android.testingandroidxpreferences.TextAutoCompletePreference
+        android:defaultValue="your name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        app:key="country"
+        app:title="put the country here"/>
+
+
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Testing Androidx Preferences</string>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>
